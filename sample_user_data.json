@@ -1,0 +1,338 @@
+[
+    {
+        "gender": "male",
+        "name": {
+            "title": "Mr",
+            "first": "Vincent",
+            "last": "Hanson"
+        },
+        "location": {
+            "street": {
+                "number": 9132,
+                "name": "Walnut Hill Ln"
+            },
+            "city": "Gainesville",
+            "state": "Nevada",
+            "country": "United States",
+            "postcode": 57555,
+            "coordinates": {
+                "latitude": "-89.0774",
+                "longitude": "-162.9790"
+            },
+            "timezone": {
+                "offset": "-11:00",
+                "description": "Midway Island, Samoa"
+            }
+        },
+        "email": "vincent.hanson@example.com",
+        "login": {
+            "uuid": "f50ef588-7600-4190-95da-64846194d369",
+            "username": "ticklishmouse455",
+            "password": "franco",
+            "salt": "BBdahMbL",
+            "md5": "1be1a234fb938364f360577af21bc0af",
+            "sha1": "8d9883139948df2315ba87547581e4bcf346b17d",
+            "sha256": "5cdb5f612ceeda63adf137e24ef0c482e71b3c5cd08e71fe23194e48d8064f38"
+        },
+        "dob": {
+            "date": "1961-04-03T16:38:27.988Z",
+            "age": 60
+        },
+        "registered": {
+            "date": "2011-03-29T04:23:09.542Z",
+            "age": 10
+        },
+        "phone": "(405)-382-4536",
+        "cell": "(294)-051-3770",
+        "id": {
+            "name": "SSN",
+            "value": "317-78-6541"
+        },
+        "picture": {
+            "large": "https://randomuser.me/api/portraits/men/25.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/men/25.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/men/25.jpg"
+        },
+        "nat": "US"
+    },
+    {
+        "gender": "male",
+        "name": {
+            "title": "Mr",
+            "first": "Joel",
+            "last": "White"
+        },
+        "location": {
+            "street": {
+                "number": 9858,
+                "name": "Camden Ave"
+            },
+            "city": "Gainesville",
+            "state": "Iowa",
+            "country": "United States",
+            "postcode": 75756,
+            "coordinates": {
+                "latitude": "-27.1313",
+                "longitude": "54.0594"
+            },
+            "timezone": {
+                "offset": "+3:30",
+                "description": "Tehran"
+            }
+        },
+        "email": "joel.white@example.com",
+        "login": {
+            "uuid": "4e70925c-c051-4cce-b972-118f9f154b7f",
+            "username": "goldenladybug968",
+            "password": "toilet",
+            "salt": "C8svWYqO",
+            "md5": "86cb27fe1f31048b3ed2e23bfd2b8fa7",
+            "sha1": "73738be72936cb40915bc24598556c7899ee1489",
+            "sha256": "06da8dd40ad9899559aa48660ba06d5118a76d1f7e558a06e49687aa8210129d"
+        },
+        "dob": {
+            "date": "1947-09-12T13:13:41.288Z",
+            "age": 74
+        },
+        "registered": {
+            "date": "2005-06-27T01:24:45.295Z",
+            "age": 16
+        },
+        "phone": "(032)-986-3564",
+        "cell": "(908)-471-5388",
+        "id": {
+            "name": "SSN",
+            "value": "648-67-9936"
+        },
+        "picture": {
+            "large": "https://randomuser.me/api/portraits/men/31.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/men/31.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/men/31.jpg"
+        },
+        "nat": "US"
+    },
+    {
+        "gender": "female",
+        "name": {
+            "title": "Ms",
+            "first": "Valerie",
+            "last": "Hansen"
+        },
+        "location": {
+            "street": {
+                "number": 2354,
+                "name": "Spring St"
+            },
+            "city": "Louisville",
+            "state": "Pennsylvania",
+            "country": "United States",
+            "postcode": 15860,
+            "coordinates": {
+                "latitude": "-37.5376",
+                "longitude": "-57.4809"
+            },
+            "timezone": {
+                "offset": "+6:00",
+                "description": "Almaty, Dhaka, Colombo"
+            }
+        },
+        "email": "valerie.hansen@example.com",
+        "login": {
+            "uuid": "cd4ae47f-0241-463f-9a69-a6f1e6b195dd",
+            "username": "silversnake822",
+            "password": "great1",
+            "salt": "P6wmdBWP",
+            "md5": "ff729c83a02324eb61513d6801c94996",
+            "sha1": "6e3a3c82999cf7ceb6c50967d51b806b41060cdb",
+            "sha256": "91b7897d6cbf80e5fac717a985fddb6afa375b2d4cb5eeef0930cdea1207f661"
+        },
+        "dob": {
+            "date": "1946-03-29T11:16:27.944Z",
+            "age": 75
+        },
+        "registered": {
+            "date": "2014-05-19T15:14:49.574Z",
+            "age": 7
+        },
+        "phone": "(701)-722-8272",
+        "cell": "(445)-514-5425",
+        "id": {
+            "name": "SSN",
+            "value": "555-20-3481"
+        },
+        "picture": {
+            "large": "https://randomuser.me/api/portraits/women/60.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/women/60.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/women/60.jpg"
+        },
+        "nat": "US"
+    },
+    {
+        "gender": "male",
+        "name": {
+            "title": "Mr",
+            "first": "Isaac",
+            "last": "Burns"
+        },
+        "location": {
+            "street": {
+                "number": 6553,
+                "name": "Main Street"
+            },
+            "city": "Chichester",
+            "state": "Greater Manchester",
+            "country": "United Kingdom",
+            "postcode": "M47 8YN",
+            "coordinates": {
+                "latitude": "30.1390",
+                "longitude": "-14.1431"
+            },
+            "timezone": {
+                "offset": "+9:30",
+                "description": "Adelaide, Darwin"
+            }
+        },
+        "email": "isaac.burns@example.com",
+        "login": {
+            "uuid": "dacfe5a1-af5e-4c3c-8b1a-e5306ca6bdc0",
+            "username": "blackwolf614",
+            "password": "lesbians",
+            "salt": "RsaTIqmv",
+            "md5": "b1c2edd435a6c41c21d12066db4c7a29",
+            "sha1": "98506fff46ce197ed62be33dfde756bfdf7a4539",
+            "sha256": "ecd29c6ad52bbb4f4d578dca859c058c0b8a3f1c5a77b6c657537014afed7a07"
+        },
+        "dob": {
+            "date": "1952-12-30T09:54:02.805Z",
+            "age": 69
+        },
+        "registered": {
+            "date": "2018-08-25T03:44:47.164Z",
+            "age": 3
+        },
+        "phone": "01794 39903",
+        "cell": "0773-269-074",
+        "id": {
+            "name": "NINO",
+            "value": "SL 99 73 31 H"
+        },
+        "picture": {
+            "large": "https://randomuser.me/api/portraits/men/9.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/men/9.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/men/9.jpg"
+        },
+        "nat": "GB"
+    },
+    {
+        "gender": "male",
+        "name": {
+            "title": "Mr",
+            "first": "Alexej",
+            "last": "Runkel"
+        },
+        "location": {
+            "street": {
+                "number": 4107,
+                "name": "Waldstra\u00dfe"
+            },
+            "city": "Aken (Elbe)",
+            "state": "Th\u00fcringen",
+            "country": "Germany",
+            "postcode": 11871,
+            "coordinates": {
+                "latitude": "34.9877",
+                "longitude": "45.8649"
+            },
+            "timezone": {
+                "offset": "-10:00",
+                "description": "Hawaii"
+            }
+        },
+        "email": "alexej.runkel@example.com",
+        "login": {
+            "uuid": "b01b44d4-b476-4892-b874-88983057d247",
+            "username": "brownfrog288",
+            "password": "playoffs",
+            "salt": "KXgnB9b2",
+            "md5": "401eb7b9b22ac553bbcf870af93ad188",
+            "sha1": "b48cb3715775d1a9adeda43cb294a80a1b9b2d80",
+            "sha256": "33869333e4d0016a39339efae5341c9b4de23a7776fd88c916c47f50e596c747"
+        },
+        "dob": {
+            "date": "1975-10-03T07:58:01.145Z",
+            "age": 46
+        },
+        "registered": {
+            "date": "2018-11-14T14:09:09.785Z",
+            "age": 3
+        },
+        "phone": "0743-4175604",
+        "cell": "0176-4408592",
+        "id": {
+            "name": "",
+            "value": null
+        },
+        "picture": {
+            "large": "https://randomuser.me/api/portraits/men/45.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/men/45.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/men/45.jpg"
+        },
+        "nat": "DE"
+    },
+    {
+        "gender": "male",
+        "name": {
+            "title": "Mr",
+            "first": "Matt",
+            "last": "Peterson"
+        },
+        "location": {
+            "street": {
+                "number": 9437,
+                "name": "Main Road"
+            },
+            "city": "Inverness",
+            "state": "Berkshire",
+            "country": "United Kingdom",
+            "postcode": "IC0 6NG",
+            "coordinates": {
+                "latitude": "-13.9827",
+                "longitude": "-144.6315"
+            },
+            "timezone": {
+                "offset": "-5:00",
+                "description": "Eastern Time (US & Canada), Bogota, Lima"
+            }
+        },
+        "email": "matt.peterson@example.com",
+        "login": {
+            "uuid": "ea6367b4-0b84-4358-af92-f1ce75ff1513",
+            "username": "greensnake444",
+            "password": "playboy1",
+            "salt": "v6cqLFQx",
+            "md5": "993719c551fa4accd9036c23e2014f65",
+            "sha1": "c1639bd6b7168687e821bbf3c80cd165def49de3",
+            "sha256": "cff630077de405908ff235acd07513bffb46f921b93831c301fd2f79672c5ea3"
+        },
+        "dob": {
+            "date": "1987-12-12T07:58:44.765Z",
+            "age": 34
+        },
+        "registered": {
+            "date": "2019-09-20T01:14:50.570Z",
+            "age": 2
+        },
+        "phone": "017684 82777",
+        "cell": "0705-350-688",
+        "id": {
+            "name": "NINO",
+            "value": "CC 02 41 48 F"
+        },
+        "picture": {
+            "large": "https://randomuser.me/api/portraits/men/45.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/men/45.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/men/45.jpg"
+        },
+        "nat": "GB"
+    }
+]

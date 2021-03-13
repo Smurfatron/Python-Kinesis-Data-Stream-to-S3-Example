@@ -1,0 +1,17 @@
+# Pycharm files
+.idea
+
+# Virtual environment
+venv
+virtualenv
+
+# AWS setup
+.aws-sam
+awscli-bundle
+awscli-bundle.zip
+
+# Environment variables
+environment.env
+
+# Cached data
+__pycache__
