@@ -1,9 +1,9 @@
 # Python Kinesis Data Stream to S3 Example
 This example ([app.py](app.py)) gets randomly generated user data from the [Random User API](https://randomuser.me/) and then puts each record in a Kinesis Data Stream.
 
-A Kinesis Data Firehose delivery stream can then be configured to process the Data Stream, transform the records using a Lambda (see code in [lambda_function.py](lambda_function.py)), and put them in an S3 bucket.
+A Kinesis Data Firehose delivery stream then processes the Data Stream, transforms the records using a Lambda (see code in [lambda_function.py](lambda_function.py)), and puts them in an S3 bucket.
 
-###Setup the Lambda
+## Setup the Lambda
 1. Create a new Lambda function via the AWS Console:
 ![](img/AWS-console-lambda-create.png)
 2. In the console's code editor, double-click on **lambda_function.py**.
@@ -16,17 +16,17 @@ A Kinesis Data Firehose delivery stream can then be configured to process the Da
 8. Click **Create**
 9. Click **Test** to confirm the Lambda works
 
-###Setup an S3 Bucket
+## Setup an S3 Bucket
 Create an S3 bucket to recieve the data
 
-###Setup the Kinesis Data Stream
+## Setup the Kinesis Data Stream
 Configure the Kinesis Data Stream via the AWS Console:
 1. Enter a name
 2. Enter a number of shards (1 for testing purposes)
 ![](img/AWS-console-kinesis-data-stream.png)
 
 
-###Setup the Kinesis Data Firehose delivery stream
+## Setup the Kinesis Data Firehose delivery stream
 Configure a delivery stream to put call the Lambda and  the records in S3:
 1. Enter a name
 2. Select **Kinesis Data Stream**
@@ -48,7 +48,7 @@ Configure a delivery stream to put call the Lambda and  the records in S3:
 14. Review then click **Create delivery stream**
 ![](img/AWS-console-kinesis-firehose-5.png)
 
-### Setup the Test App
+## Setup the Test App
 <pre>pip install -R requirements.txt</pre>
 In [app.py](app.py) scroll down to the <code>if __name__ == '__main__':</code> block and change the following values before running:
  * <code>stream_name</code> (str) is the name of the Kinesis Data Stream previously created.  The app will check to see if the stream exists on the AWS account.  
