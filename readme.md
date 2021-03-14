@@ -1,5 +1,7 @@
 # Python Kinesis Data Stream to S3 Example
-This example gets randomly generated user data from the [Random User API](https://randomuser.me/) and then puts each record in a Kinesis Data Stream.
+This example is based in part on A Cloud Guru's [Streaming Data Collection demo](https://github.com/ACloudGuru-Resources/Course_AWS_Certified_Machine_Learning/tree/master/Chapter3).
+
+It gets randomly generated user data from the [Random User API](https://randomuser.me/) and then puts each record in a Kinesis Data Stream.
 From that point, there are two pathways demonstrated:
 1. Use a Kinesis Data Firehose delivery stream then processes the Data Stream, transform the records using a Lambda (see code in [lambda_function.py](lambda_function.py)), and put them in an S3 bucket
 2. Use a Kinesis Data Analytics application to execute a SQL query against the streaming data, then use a Kinesis Data Firehose delivery stream to put the queried subset in an S3 bucket
