@@ -4,7 +4,9 @@ From that point, there are two pathways demonstrated:
 1. Use a Kinesis Data Firehose delivery stream then processes the Data Stream, transform the records using a Lambda (see code in [lambda_function.py](lambda_function.py)), and put them in an S3 bucket
 2. Use a Kinesis Data Analytics application to execute a SQL query against the streaming data, then use a Kinesis Data Firehose delivery stream to put the queried subset in an S3 bucket
 
-**NOTE: the code in this repo is not necessarily optimized and may not use the best approach but should provide a quick and simple working example.**
+### NOTES:
+1. Using AWS services for this example **will incur costs**, so be sure to delete any the Kinesis Data Streams, Data Firehose or Data Analytics services you spin up when you're done
+2. The code in this repo is not necessarily optimized and may not use the best approach but should provide a quick and simple working example
 
 See the [wiki](https://github.com/Smurfatron/Python-Kinesis-Data-Stream-to-S3-Example/wiki) for details on setting up the services in the AWS Console
 
